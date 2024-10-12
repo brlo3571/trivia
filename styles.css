@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+html{
+    background-image: linear-gradient(to bottom, #0D0F14, #2e2e32);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+header{
+    position: relative;
+}
+#time {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.7em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#email{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.7em;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#top {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;    
+    font-size: 3em;
+    padding-top:100px; 
+    /* border: 5px solid white; */
+}
+
+h1 {
+    margin: 0; 
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#quote {
+    margin-top: 2%;
+    text-align: center;
+    width: 60%;
+    font-size: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+#container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 3em;
+    /* border: 5px solid white; */
+}
+
+#score{
+    padding-top: 10vh;
+}
